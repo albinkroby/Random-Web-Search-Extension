@@ -61,7 +61,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Albin K Roby - [@albinkroby](https://twitter.com/albinkroby)
 
-Project Link: [[https://github.com/yourusername/random-search-extension](https://github.com/albinkroby/Random-Web-Search-Extension)]
+Project Link: [[https://github.com/albinkroby/random-search-extension](https://github.com/albinkroby/Random-Web-Search-Extension)]
 
 ## Disclaimer
 
