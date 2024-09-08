@@ -1,8 +1,8 @@
 # Random Search Extension
 
-## Overview
 
-Random Search Extension is a powerful Chrome/Edge browser extension that automates random web searches on Google and/or Bing. It's designed for users who want to generate diverse search patterns or test search engine behavior.
+## Project Overview
+This Chrome/Edge extension performs random searches on Google and/or Bing at specified intervals. I created this project to demonstrate my skills in JavaScript and browser extension development.
 
 ## Features
 
@@ -11,6 +11,25 @@ Random Search Extension is a powerful Chrome/Edge browser extension that automat
 - ⏱️ Adjustable time interval between searches
 - 🎨 User-friendly interface
 - 🔄 Automatic tab closure after each search
+
+## Technologies Used
+
+- HTML/CSS for the popup interface
+- JavaScript for core functionality
+- Chrome/Edge Extension APIs
+
+## What I Learned
+
+- How to create a browser extension
+- Working with Chrome/Edge APIs
+- Implementing asynchronous JavaScript operations
+- Designing a user-friendly interface for a small-scale application
+
+## Future Improvements
+
+- Add support for more search engines
+- Implement a feature to save search histories
+- Create a more advanced UI with search analytics
 
 ## Installation
 
@@ -27,7 +46,6 @@ Random Search Extension is a powerful Chrome/Edge browser extension that automat
 4. Adjust the time interval between searches (in seconds).
 5. Click "Start Searching" to begin the process.
 6. Use "Stop Searching" to end the search session at any time.
-
 
 ## Configuration
 
@@ -51,6 +69,9 @@ Contributions to improve Random Search Extension are welcome! Here's how you can
 6. Open a Pull Request.
 
 Please ensure your code adheres to the existing style and all tests pass.
+
+## Note
+This project is primarily for demonstration purposes as part of my portfolio. 
 
 ## License
 
