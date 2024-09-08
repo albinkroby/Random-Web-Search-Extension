@@ -77,13 +77,6 @@ This project is primarily for demonstration purposes as part of my portfolio.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-
-## Contact
-
-Albin K Roby - [@albinkroby](https://twitter.com/albinkroby)
-
-Project Link: [[https://github.com/albinkroby/random-search-extension](https://github.com/albinkroby/Random-Web-Search-Extension)]
-
 ## Disclaimer
 
 This extension is for educational and testing purposes only. Excessive automated searches may violate search engine terms of service. Use responsibly.
