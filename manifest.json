@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Random Search Extension",
+  "version": "1.0",
+  "description": "Performs random searches on Google or Bing.",
+  "permissions": ["tabs", "storage"],
+  "host_permissions": ["https://www.google.com/", "https://www.bing.com/"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

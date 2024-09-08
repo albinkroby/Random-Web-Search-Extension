@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+      body {
+        width: 300px;
+        padding: 15px;
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+      }
+
+      h2 {
+        color: #333;
+        text-align: center;
+        margin-top: 0;
+      }
+
+      .search-options,
+      .custom-options {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 15px;
+      }
+
+      .search-option {
+        display: flex;
+        align-items: center;
+      }
+
+      .custom-option {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      input[type="number"] {
+        width: 60px;
+        margin-top: 5px;
+      }
+
+      button {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      #startSearch {
+        background-color: #4CAF50;
+      }
+
+      #startSearch:hover {
+        background-color: #45a049;
+      }
+
+      #stopSearch {
+        background-color: #f44336;
+      }
+
+      #stopSearch:hover {
+        background-color: #da190b;
+      }
+
+      #searchCount {
+        text-align: center;
+        margin-top: 15px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h2>Random Search</h2>
+    <div class="search-options">
+      <div class="search-option">
+        <input type="checkbox" id="googleSearch" checked>
+        <label for="googleSearch">Google</label>
+      </div>
+      <div class="search-option">
+        <input type="checkbox" id="bingSearch" checked>
+        <label for="bingSearch">Bing</label>
+      </div>
+    </div>
+    <div class="custom-options">
+      <div class="custom-option">
+        <label for="maxSearches">Max Searches</label>
+        <input type="number" id="maxSearches" min="1" value="30">
+      </div>
+      <div class="custom-option">
+        <label for="searchInterval">Interval (sec)</label>
+        <input type="number" id="searchInterval" min="1" value="8">
+      </div>
+    </div>
+    <button id="startSearch">Start Searching</button>
+    <button id="stopSearch">Stop Searching</button>
+    <p id="searchCount">Searches: 0 / 30</p>
+    <script src="popup.js"></script>
+  </body>
+
+</html>
